@@ -4,7 +4,7 @@ public class Item {
 	private String nome;
 	private double valor;
 	private double rate;
-	private double tarifa;
+	protected double tarifa;
 
 	public Item(String nome, double valor, double rate) {
 		this.nome = nome;
